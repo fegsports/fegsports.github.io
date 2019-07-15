@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>채용 | FEG</title>
+  <script defer src="main.dart.js" type="application/javascript"></script>
+</head>
+<body>
+  <script>
+    var agent = navigator.userAgent.toLowerCase();
+    if ((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)) {
+      var txt = ''
+      txt += '<div style="width:70%;margin:0 auto;">'
+      txt += '<br>안녕하세요. <a href="http://fegsports.com/kr" target="_blank">창운코리아</a>입니다.'
+      txt += '<br>게임과 이스포츠에 관심 많은 개발/디자인/기획 동료를 구합니다.'
+
+      txt += '<br><br>IE에서는 보이지 않습니다.'
+      txt += '<br>그 외 크롬 등의 브라우저로 확인 부탁드립니다.'
+
+      txt += '<br><br><a href="https://www.rocketpunch.com/jobs?keywords=창운코리아" target="_blank">로켓펀치</a> 또는 '
+      txt += '<a href="https://www.jobkorea.co.kr/Search/?stext=창운코리아" target="_blank">잡코리아</a>에서도 확인 가능합니다.'
+
+      txt += '<br><br>지원 및 문의는 아래 메일로 보내주세요.'
+      txt += '<br><a href="mailto:recruit@fegsports.kr?subject=[입사지원]" target="_blank">recruit@fegsports.kr</a>'
+      txt += ' 많은 지원 부탁드립니다.'
+      txt += '</div>'
+      
+      document.body.innerHTML = txt
+    }
+  </script>
+</body>
+</html>
