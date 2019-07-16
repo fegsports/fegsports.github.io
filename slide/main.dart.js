@@ -38594,7 +38594,7 @@ this.bv()},
 sC:function(a,b){this.d7$=H.n(b,H.w(this,"bN",0))},
 sjr:function(a){this.fs$=H.n(a,H.w(this,"bN",1))}}
 F.BU.prototype={
-P:function(a){return new S.m7(new F.HK(this.c,this.d,null),"Slide Puzzle",null)}}
+P:function(a){return new S.m7(new F.HK(this.c,this.d,null),"\ucc44\uc6a9 | FEG",null)}}
 F.HK.prototype={
 aL:function(){var u,t=null,s=this.d,r=V.Ud(s,this.c)
 M.PK(s>=3,"width","Must be at least 3.")
